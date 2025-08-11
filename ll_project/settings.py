@@ -34,6 +34,9 @@ INSTALLED_APPS = [
     # 我的应用程序
     'learning_logs',
     'accounts',
+
+    # 第三方应用程序
+    'django_bootstrap5',
     
     # Django默认添加的应用程序
     'django.contrib.admin',
@@ -129,4 +132,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # 我的设置
 LOGIN_REDIRECT_URL = 'learning_logs:index'
 LOGOUT_REDIRECT_URL = 'learning_logs:index'
-
+LOGIN_URL = 'accounts:login'
