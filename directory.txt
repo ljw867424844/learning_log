@@ -45,3 +45,28 @@
 2.3.6 将新主题关联到当前用户
 2.4 小结
 3. 设置应用程序的样式并部署
+3.1 设置项目“学习笔记”的样式
+3.1.1 应用程序 django-bootstrap5
+3.1.2 使用 Bootstrap 设置项目“学习笔记”的样式
+3.1.3 修改 base.html
+3.1.4 使用 jumbotron 设置主页的样式
+3.1.5 设置登录页面的样式
+3.1.6 设置页面 topics 的样式
+3.1.7 设置页面 topic 中条目的样式
+3.2 部署“学习笔记”
+3.2.1 注册 Platform.sh 账户
+3.2.2 安装 Platform.sh CLI
+3.2.3 安装 platformshconfig
+3.2.4 创建文件 requirements.txt
+3.2.5 其他部署需求
+3.2.6 添加配置文件
+3.2.7 为部署到 Platform.sh 而修改settings.py
+3.2.8 使用 Git 跟踪项目文件
+3.2.9 在 Platform.sh 上创建项目
+3.2.10 推送到 Platform.sh
+3.2.11 查看线上项目
+3.2.12 改进 Platform.sh 部署
+3.2.13 创建定制错误页面
+3.2.14 继续开发
+3.2.15 将项目从 Platform.sh 上删除
+3.3 小结
